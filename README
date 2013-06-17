@@ -1,0 +1,20 @@
+wstools 0.5.0 
+====================
+
+WsTools is collection of software for Kaale Nieminen's Weather Station.
+These tools archive weather data, produce statistics in plain text / html
+and draw graphical statistics.
+
+Requirements
+============
+
+- GCC 4.x.x
+- Automake 1.10
+- Gnuplot 4.2
+
+Installation
+============
+
+Still undocumented.
+
+See weatherserver/doc/* for more documentation.

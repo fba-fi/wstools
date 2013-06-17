@@ -1,0 +1,6 @@
++ user LSB standard for file installations
++ create installation scripts
++ change to automake system
++ create configuration to /etc/weatherserver (conflicts?)
++ implement command line arguments
++ abstract data interface to support other weather stations

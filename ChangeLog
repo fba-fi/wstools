@@ -1,0 +1,4 @@
+2008-09-25 Mikko Vatanen <mikko@vapaatyyli.fi>
+
+* Makefile.am: added new file
+* configure.in: added new file

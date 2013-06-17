@@ -1,0 +1,7 @@
+/*
+
+	cmdline.h
+
+	Defines command line options for each program
+
+*/

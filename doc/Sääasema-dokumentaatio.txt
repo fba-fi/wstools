@@ -1,0 +1,7 @@
+Sääasemapalvelin v1.0
+
+Tekijä: Mikko Vatanen 2006-2008
+
+JÄRJESTELMÄN YLEISKUVAUS
+
+Sääasemapalvelin kerää ja tuottaa statistiikkaa Kaale Niemisen sääaseman tuottamasta tiedosta. Palvelimen käyttöjärjestelmä on Debian, www-palvelimena Apache ja keräilyohjelmisto on toteutettu C-kielellä, Bash-skripteillä sekä Gnuplot piirturiohjelmistolla.

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+loadtest >> log &
+
+while [ 1 ] ; do
+	read -t 1 key
+	if [[ "$key" == "q" ]] ; then
+		break
+	fi
+	proc="`ps -A | grep -c wget`"
+	succ="`grep -c success log`"
+        fail="`grep -c failed log`"
+        total="$((succ + fail))"
+	if (( $total < 1 )) ; then
+		total=1
+	fi
+	clear
+	echo "Processes: $proc"
+	echo "Good: $succ"
+	echo "Fail: $fail"
+	echo "Ratio: $((fail / $total))"
+done
+
+echo Cleaning up...
+
+killall loadtest
